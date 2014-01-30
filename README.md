@@ -1,4 +1,3 @@
-
 Bully Election Algorithm for Distributed Cluster Nodes
 =======================================================
 
@@ -30,15 +29,15 @@ Class Diagram : { project directory }\ classDiagram\Model.png
 ################### Project Structure ###################
 
 BullyElectionAlgorithm/
------ ----- ----- ----- ----- ----- src
------ ----- ----- ----- ----- ----- configuration_file.txt
------ ----- ----- ----- ----- ---------- ----- {Java Source Code}
------ ----- ----- ----- ----- ----- classDiagram
------ ----- ----- ----- ----- ----- ----- ----- {Class Diagram of the Code}
------ ----- ----- ----- ----- ----- doc
------ ----- ----- ----- ----- ----- ----- ----- {Java API Documentation}
------ ----- ----- ----- ----- ----- readme.txt
------ ----- ----- ----- ----- ----- sources.txt
+- src
+- configuration_file.txt
+----- {Java Source Code}
+- classDiagram
+----- {Class Diagram of the Code}
+- doc
+----- {Java API Documentation}
+- readme.txt
+- sources.txt
 
 
 ################### Compile and Running the App Notes ###################
@@ -47,7 +46,7 @@ App.java file is entry point for the App. Run the program using App.java file. B
 
 Step 1>> Go to Project source folder, and perform following commands to compile the source code.
 
-# Linux
+For Linux :: 
 
 $ find -name "*.java" > sources.txt
 

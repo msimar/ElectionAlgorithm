@@ -1,0 +1,4 @@
+108 ukko024.hpc.cs.helsinki.fi 4444
+105 ukko025.hpc.cs.helsinki.fi 4445
+115 ukko026.hpc.cs.helsinki.fi 4446
+135 ukko027.hpc.cs.helsinki.fi 4447
